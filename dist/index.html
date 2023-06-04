@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Mood Teller</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="text-container">
+	<p class="heading">
+		<span class="lighter">Hello! I can tell how you're feeling today</span>. <span class="bolder">So how was your day ? </span>
+	</p>
+</div>
+
+<div class="container">
+	<div class="inputs">
+		<img src="https://cdn-icons-png.flaticon.com/512/1089/1089456.png" class="bgWizard" />
+		<input type="text" placeholder="I feel so alive today" id="sentimentInput" />
+	</div>
+	<div class="btn_div">
+		<button id="checkBtn" disabled>🪄</button>
+	</div>
+</div>
+
+<div class="text-container" id="response">
+	<p class="foot">
+		Aah! I see you're feeling <span class="mood bolder">Sad..</span>today
+	</p>
+</div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/tensorflow/4.6.0/tf.min.js'></script>
+<script src='https://cdn.jsdelivr.net/npm/@tensorflow-models/universal-sentence-encoder'></script><script  src="./script.js"></script>
+
+</body>
+</html>
