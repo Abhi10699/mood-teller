@@ -6,7 +6,7 @@ Sure! Here's a sample GitHub project description for your sentiment analyzer cal
 
 Mood Teller is a sentiment analyzer designed to understand and interpret human emotions based on user input. With this tool, users can express how they feel, and Mood Teller will provide an insightful analysis by determining whether the user is happy or sad.
 
-!["Mood teller screenshot"](./image/screenshot.png)
+![screenshot](https://github.com/Abhi10699/mood-teller/assets/16337462/413c720b-56dc-4113-a28a-89d93bec103e)
 
 ## Features
 
